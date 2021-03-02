@@ -7,7 +7,7 @@ headers_token = {
 
 
 
-data_token = '{"username":"mithunchandran","password":"Sree@1988"}'
+data_token = '{"username":"","password":""}'
 
 response = requests.post('https://mpidemo.4medica.io/mpi-api/v1/authtoken', headers=headers_token, data=data_token)
 response =response.json()
